@@ -1,0 +1,46 @@
+.footerlist{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.footerlist ul{
+    display: flex;
+    list-style: none;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.footerlist ul a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.805);
+}
+.footerlist ul a:hover{
+    color: #D2093C;
+    transition: .4s;
+    text-decoration: underline;
+}
+.inpBox{
+    display: flex;
+    background-color: aqua;
+    width: 250px;
+    height: 55px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.inpBox input{
+    width: 80%;
+    height: 100%;
+    outline: none;
+    border: none;
+    padding: 10px;
+}
+.inpBox .inpArrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    background-color: #467EFC;
+    font-size: 24px;
+}

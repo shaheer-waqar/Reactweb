@@ -1,0 +1,69 @@
+.carousel{
+    width: 100%;
+    height: 550px;
+    background-image: url(/public/1.ddb463a076b58bbe0ea3.jpg);
+    background-size: cover;
+    overflow: hidden;
+    background-position: center;
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+}
+
+.arrow{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: gray;
+    font-size: 24px;
+    font-weight: 400;
+}
+.arrow:hover{
+    background-color:white ;
+    color: black;
+    transition: .5s;
+}
+.admission{
+    padding: 8rem 0;
+}
+.admission h3{
+    width: 40%;
+    color: white;
+    background-color: #D2093C;
+    text-align: center;
+    padding: 3px 0;
+}
+.admission h1{
+    font-size: 4rem;
+    font-weight: 900 ;
+}
+.videoBtn{
+    width: 100px;
+    height: 100px;
+    color:rgb(3, 3, 56);
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50%;
+}
+
+@media screen and (max-width : 700px){
+    .carousel{
+        height: 300px;
+    }
+    .admission{
+        padding: 5rem;
+    }
+    .admission h3{
+        font-size: 14px;
+    }
+    .admission h1{
+        font-size: 1rem;
+    }
+}
