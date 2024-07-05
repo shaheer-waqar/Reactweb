@@ -30,12 +30,15 @@
 .admission{
     padding: 8rem 0;
 }
-.admission h3{
+.admission span{
     width: 40%;
     color: white;
     background-color: #D2093C;
     text-align: center;
     padding: 3px 0;
+    padding: 5px 10px;
+    font-size: 20px;
+
 }
 .admission h1{
     font-size: 4rem;
@@ -52,7 +55,21 @@
     background-color: white;
     border-radius: 50%;
 }
-
+.btnAdmision{
+    padding: 12px 35px;
+    border: none;
+    background:none;
+    color: white;
+    border: 1px solid rgba(167, 164, 164, 0.712);
+    border-radius: 4px;
+    font-weight: 500;
+}
+.btnAdmision:hover{
+    background-color: #D2093C;
+    color: white;
+    transition: .8s;
+    border: 1px solid rgba(255, 255, 255, 0);
+}
 @media screen and (max-width : 700px){
     .carousel{
         height: 300px;
@@ -60,10 +77,22 @@
     .admission{
         padding: 5rem;
     }
-    .admission h3{
-        font-size: 14px;
+    .admission span{
+        font-size: 17px;
+        text-align: start;
+        font-weight: 700;
     }
     .admission h1{
-        font-size: 1rem;
+        font-size: 2rem;
     }
+}
+@media screen and (max-width : 450px){
+    .admission h1{
+        font-size: 1.4rem;
+    }
+    .admission{
+      padding: 2.5rem 0;
+
+    }
+
 }

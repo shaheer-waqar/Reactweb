@@ -1,5 +1,4 @@
 import './App.css'
-import Navbar from './Navbar/Navbar'
 import Topbar from './Topbar/Topbar'
 import Carousel from './Carousel/Carousel'
 import Card from './Card/Card'
@@ -8,6 +7,10 @@ import Platform from './Platform/Platform'
 import Campus from './Campus/Campus'
 import Courses from './Courses/Courses'
 import Footer from './Footer/Footer'
+import Navbar from './Navbar/Navbar.jsx'
+import States from './States/States.jsx'
+import Review from './Reviewr/Review.jsx'
+import Blogs from './Blogs/Blogs.jsx'
 
 function App() {
 
@@ -21,6 +24,9 @@ function App() {
     <Platform/>
     <Campus/>
     <Courses/>
+    <States/>
+    <Review/>
+    <Blogs/>
     <Footer/>
     </>
   )

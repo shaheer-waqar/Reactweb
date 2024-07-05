@@ -5,7 +5,7 @@ export default function Topbar() {
   return (
     <>
     <div>
-    <div className={`${styles.topbarBg} container-xxl text-white d-none d-lg-block`}>
+    <div className={`${styles.topbarBg} container-fluid text-white d-none d-lg-block`}>
         <div className="row">
            <div className={`${styles.contacts} col-lg-7  gap-4`}>
              <ul>

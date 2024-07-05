@@ -4,7 +4,7 @@ import Button from '../Button/Button'
 
 export default function Platform() {
   return (
-    <div className="container-xxl px-4 mt-5 ">
+    <div className="container-fluid px-4 mt-5 ">
         <div className="row gap-1 ">
             <div className="col-lg-6 col-12 ">
                 <img src="/platform.png" alt="" className='w-100'/>

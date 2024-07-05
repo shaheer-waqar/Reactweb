@@ -38,7 +38,7 @@ export default function Courses() {
         },
     ]
   return (
-    <div className={`container-xxl px-5`}>
+    <div className={`container-fluid px-3 px-md-5`}>
         <div className="row row-gap-4 mt-5">
             {
                 Courses.map((e,i)=>{

@@ -13,9 +13,9 @@ export default function Navbar() {
       <span className="navbar-toggler-icon"></span>
     </button>
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-0 gap-lg-4 gap-md-3 px-0 px-lg-4 px-md-4">
+      <ul className="navbar-nav ms-auto mb-2 mb-lg-0 gap-0 gap-md-4 gap-md-3 px-0 px-lg-4 px-md-4">
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className={`nav-link dropdown-toggle ${styles.active}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Home
           </a>
           <ul className="dropdown-menu">
@@ -26,7 +26,7 @@ export default function Navbar() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className={`nav-link dropdown-toggle ${styles.unactive}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Pages
           </a>
           <ul className="dropdown-menu">
@@ -37,7 +37,7 @@ export default function Navbar() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className={`nav-link dropdown-toggle ${styles.unactive}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Courses
           </a>
           <ul className="dropdown-menu">
@@ -48,7 +48,7 @@ export default function Navbar() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className={`nav-link dropdown-toggle ${styles.unactive}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Blog
           </a>
           <ul className="dropdown-menu">
@@ -59,7 +59,7 @@ export default function Navbar() {
           </ul>
         </li>
         <li className="nav-item dropdown">
-          <a className="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+          <a className={`nav-link dropdown-toggle ${styles.unactive}`} href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Contact
           </a>
           <ul className="dropdown-menu">

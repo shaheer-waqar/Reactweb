@@ -6,9 +6,9 @@ import Button from '../Button/Button'
 
 export default function Campus() {
   return (
-    <div className={`${styles.campus} container-xxl`}>
+    <div className={`${styles.campus} container-fluid mt-5`}>
         <div className="row">
-            <div className="col-12k">
+            <div className="col-12">
                 <Heading text="Campus Life"/>
             </div>
         </div>

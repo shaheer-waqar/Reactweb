@@ -22,3 +22,12 @@
     font-weight: 550;
 
 }
+.active{
+    color: #D2093C;
+    font-weight: 600;
+
+}
+.unactive{
+    color: #00306E;
+    font-weight: 600;
+}

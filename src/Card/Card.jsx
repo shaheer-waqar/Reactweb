@@ -23,8 +23,8 @@ export default function Card() {
     ]
 
   return (
-    <div className="container-xxl mt-5">
-        <div className="row px-5 row-gap-5">
+    <div className="container-fluid mt-5">
+        <div className="row px-2 px-md-5 row-gap-5">
             {
                 cardObj.map((e,i)=>{
                     return (

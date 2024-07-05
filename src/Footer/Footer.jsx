@@ -3,9 +3,9 @@ import styles from './Footer.module.css'
 
 export default function Footer() {
   return (
-    <div className="container-xxl bg-dark px-5 py-5 mt-5">
-        <div className="row">
-            <div className="col-lg-3 text-white">
+    <div className="container-fluid bg-dark px-5 py-5 mt-5">
+        <div className="row row-gap-4">
+            <div className="col-lg-3 text-white d-flex flex-column gap-3 px-0 px-md-5">
                 <div><img src="/logo2.png" alt="" /></div>
                 <p>There are course and event custom post types so you can easily create and manage course, events.</p>
                 <div className={styles.contacts}>
@@ -13,7 +13,7 @@ export default function Footer() {
                     <p><i className="ri-mail-line"></i> info@echooling.com</p>
                 </div>
             </div>
-            <div className={`${styles.footerlist} col-lg-3 px-0  px-lg-5 `}>
+            <div className={`${styles.footerlist} col-lg-3 px-0 px-md-5 `}>
               <h2 className='text-white'>About</h2>
               <ul>
                 <li><a href="">About</a></li>
@@ -25,7 +25,7 @@ export default function Footer() {
               </ul>
             </div>
 
-            <div className={`${styles.footerlist} col-lg-3 px-2 px-lg-4`}>
+            <div className={`${styles.footerlist} col-lg-3 px-0 px-md-5`}>
               <h2 className='text-white'>Useful Links</h2>
               <ul>
                 <li><a href="">Browse Library</a></li>
@@ -36,7 +36,7 @@ export default function Footer() {
                 <li><a href="">Tutorials</a></li>
               </ul>
             </div>
-            <div className={`${styles.footerlist} col-lg-3 text-white`}>
+            <div className={`${styles.footerlist} col-lg-3 text-white px-0 px-md-5`}>
               <h2>Newsletter</h2>
               <div>
                 <p>Get the latest Echooling news delivered to you inbox</p>
@@ -47,9 +47,24 @@ export default function Footer() {
                   </div>
                 </div>
               </div>
-
-              
             </div>
+        </div>
+        <hr className='text-white'/>
+        <div className="row ">
+          <div className="col-12 col-lg-6 text-white d-flex justify-content-center justify-content-lg-start">
+            <div className={styles.copyright}>
+            <p>© 2022 <span >Echooling.</span> All Rights Reserved</p>
+            </div>
+          </div>
+          <div className="col-12 col-lg-6 text-white">
+            <div className="d-flex gap-3 justify-content-center justify-content-lg-end">
+              <p className={styles.follow}>Follow us</p>
+              <div className={styles.scoial}><i className="ri-facebook-fill"></i></div>
+              <div className={styles.scoial}><i className="ri-twitter-fill"></i></div>
+              <div className={styles.scoial}><i className="ri-linkedin-fill"></i></div>
+            </div>
+          </div>
+          
         </div>
     </div>
   )
